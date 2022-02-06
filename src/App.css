@@ -86,3 +86,12 @@ button:active{
 .highlight{
   background: #FE7E6D;
 }
+
+@media only screen and (max-width: 600px) {
+  .container {
+    top:70%;
+    left:50%;
+    height: 400px;
+    width: 250px;
+  }
+}
